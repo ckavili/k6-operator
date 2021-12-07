@@ -1698,6 +1698,8 @@ spec:
                 description: Stage describes which stage of the test execution lifecycle
                   our runners are in
                 enum:
+                - initialization
+                - initialized
                 - created
                 - started
                 - finished
